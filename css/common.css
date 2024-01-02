@@ -26,3 +26,15 @@ ul.gallery img {
   width: 100%;
   height: auto;
 } 
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
