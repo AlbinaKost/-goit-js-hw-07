@@ -4,7 +4,7 @@ const categoriesList = document.getElementById('categories');
 const categoryItems = categoriesList.querySelectorAll('li.item');
 
 
-console.log(`Numbers categories: ${categoryItems.length}`);
+console.log(`Number of categories: ${categoryItems.length}`);
 
 
 categoryItems.forEach(categoryItem => {
@@ -16,6 +16,6 @@ categoryItems.forEach(categoryItem => {
 
   
   console.log(`Category: ${categoryTitle}`);
-  console.log(`Elenents: ${categoryElements.length}`);
+  console.log(`Elements: ${categoryElements.length}`);
   
 });

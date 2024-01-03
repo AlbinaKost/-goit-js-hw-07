@@ -16,6 +16,5 @@ function updateNameOutput() {
     nameOutput.textContent = enteredName;
   }
 
- 
-  console.log(nameOutput.textContent);
-}
+ }
+  
