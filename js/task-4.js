@@ -14,9 +14,9 @@ const form = document.querySelector(".login-form");
             alert('All form fields must be filled in');
             return;
           }
-
-        console.log(userData);
-
-        form.reset();
-    }
+          console.log(userData);
+        
+          form.reset();
+        }
+    
 

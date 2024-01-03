@@ -13,8 +13,8 @@ function getRandomHexColor() {
 
         bodyElement.style.backgroundColor = newColor;
         colorSpan.textContent = newColor;
-         
-        });
+       });  
+        
         
     
      
